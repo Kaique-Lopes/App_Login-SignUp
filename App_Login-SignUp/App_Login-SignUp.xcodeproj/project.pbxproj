@@ -17,6 +17,7 @@
 		7C3227ED271901EC00D6277D /* App_Login_SignUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3227EC271901EC00D6277D /* App_Login_SignUpUITests.swift */; };
 		7C3227EF271901EC00D6277D /* App_Login_SignUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3227EE271901EC00D6277D /* App_Login_SignUpUITestsLaunchTests.swift */; };
 		7C322804271903A000D6277D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C322803271903A000D6277D /* LoginController.swift */; };
+		7C32280627190FEB00D6277D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32280527190FEA00D6277D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7C3227EC271901EC00D6277D /* App_Login_SignUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Login_SignUpUITests.swift; sourceTree = "<group>"; };
 		7C3227EE271901EC00D6277D /* App_Login_SignUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Login_SignUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7C322803271903A000D6277D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7C32280527190FEA00D6277D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		7C3228022719036200D6277D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				7C32280527190FEA00D6277D /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C32280627190FEB00D6277D /* Extensions.swift in Sources */,
 				7C3227D0271901E900D6277D /* ViewController.swift in Sources */,
 				7C322804271903A000D6277D /* LoginController.swift in Sources */,
 				7C3227CC271901E900D6277D /* AppDelegate.swift in Sources */,
