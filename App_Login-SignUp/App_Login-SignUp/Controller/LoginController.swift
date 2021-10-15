@@ -13,38 +13,11 @@ class LoginController: UIViewController {
     private let iconImage: UIImageView = UIImageView()
     
     // MARK: - Create TextFields
-    private let emailTextField: UITextField = {
-        let tf = UITextField()
-        let spacer = UIView()
-        spacer.setDimensions(height: 50, width: 12)
-        tf.leftView = spacer
-        tf.leftViewMode = .always
-        
-        tf.textColor = .white
-        tf.keyboardAppearance = .dark
-        tf.placeholder = "Digite seu E-mail"
-        tf.backgroundColor = UIColor(white: 1, alpha: 0.1)
-        tf.setHeight(height: 50)
-        tf.attributedPlaceholder = NSAttributedString(string: "Digite seu E-mail", attributes: [.foregroundColor:
-                                                                                                UIColor(white: 1, alpha: 0.5)])
-        return tf
-    }()
+    private let emailTextField = CustomTextField(placeholder: "Digite seu E-mail")
     
-    private let passwordTextField: UITextField = {
-        let tf = UITextField()
-        let spacer = UIView()
-        spacer.setDimensions(height: 50, width: 12)
-        tf.leftView = spacer
-        tf.leftViewMode = .always
-        
-        tf.borderStyle = .none
-        tf.textColor = .white
-        tf.keyboardAppearance = .dark
+    private let passwordTextField: CustomTextField = {
+        let tf = CustomTextField(placeholder: "Digite sua Senha")
         tf.isSecureTextEntry = true
-        tf.placeholder = "Digite sua Senha"
-        tf.backgroundColor = UIColor(white: 1, alpha: 0.1)
-        tf.setHeight(height: 50)
-        tf.attributedPlaceholder = NSAttributedString(string: "Digite sua Senha", attributes: [.foregroundColor: UIColor(white: 1, alpha: 0.5)])
         return tf
     }()
     
