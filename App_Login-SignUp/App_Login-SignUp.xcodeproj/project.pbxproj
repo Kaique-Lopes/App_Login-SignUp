@@ -16,6 +16,7 @@
 		7C3227E3271901EC00D6277D /* App_Login_SignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3227E2271901EC00D6277D /* App_Login_SignUpTests.swift */; };
 		7C3227ED271901EC00D6277D /* App_Login_SignUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3227EC271901EC00D6277D /* App_Login_SignUpUITests.swift */; };
 		7C3227EF271901EC00D6277D /* App_Login_SignUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3227EE271901EC00D6277D /* App_Login_SignUpUITestsLaunchTests.swift */; };
+		7C322804271903A000D6277D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C322803271903A000D6277D /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7C3227E8271901EC00D6277D /* App_Login-SignUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App_Login-SignUpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3227EC271901EC00D6277D /* App_Login_SignUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Login_SignUpUITests.swift; sourceTree = "<group>"; };
 		7C3227EE271901EC00D6277D /* App_Login_SignUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Login_SignUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C322803271903A000D6277D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		7C3227CA271901E900D6277D /* App_Login-SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				7C3228022719036200D6277D /* Utils */,
 				7C322801271902FC00D6277D /* Model */,
 				7C322800271902F500D6277D /* View */,
 				7C3227FD271902DA00D6277D /* ViewModel */,
@@ -142,6 +145,7 @@
 		7C3227FC271902B000D6277D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7C322803271903A000D6277D /* LoginController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +169,13 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7C3228022719036200D6277D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3227D0271901E900D6277D /* ViewController.swift in Sources */,
+				7C322804271903A000D6277D /* LoginController.swift in Sources */,
 				7C3227CC271901E900D6277D /* AppDelegate.swift in Sources */,
 				7C3227CE271901E900D6277D /* SceneDelegate.swift in Sources */,
 			);
