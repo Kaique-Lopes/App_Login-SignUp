@@ -99,6 +99,11 @@
 		7C3227CA271901E900D6277D /* App_Login-SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				7C322801271902FC00D6277D /* Model */,
+				7C322800271902F500D6277D /* View */,
+				7C3227FD271902DA00D6277D /* ViewModel */,
+				7C3227FC271902B000D6277D /* Controller */,
+				7C3227FB2719029200D6277D /* API */,
 				7C3227CB271901E900D6277D /* AppDelegate.swift */,
 				7C3227CD271901E900D6277D /* SceneDelegate.swift */,
 				7C3227CF271901E900D6277D /* ViewController.swift */,
@@ -125,6 +130,41 @@
 				7C3227EE271901EC00D6277D /* App_Login_SignUpUITestsLaunchTests.swift */,
 			);
 			path = "App_Login-SignUpUITests";
+			sourceTree = "<group>";
+		};
+		7C3227FB2719029200D6277D /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7C3227FC271902B000D6277D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C3227FD271902DA00D6277D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7C322800271902F500D6277D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C322801271902FC00D6277D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
