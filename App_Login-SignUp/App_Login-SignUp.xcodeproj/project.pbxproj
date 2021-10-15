@@ -19,6 +19,7 @@
 		7C322804271903A000D6277D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C322803271903A000D6277D /* LoginController.swift */; };
 		7C32280627190FEB00D6277D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32280527190FEA00D6277D /* Extensions.swift */; };
 		7CCD00B82719CD7A00859827 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD00B72719CD7A00859827 /* CustomTextField.swift */; };
+		7CCD00BA2719F14300859827 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD00B92719F14300859827 /* AuthButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		7C322803271903A000D6277D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		7C32280527190FEA00D6277D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7CCD00B72719CD7A00859827 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7CCD00B92719F14300859827 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				7CCD00B72719CD7A00859827 /* CustomTextField.swift */,
+				7CCD00B92719F14300859827 /* AuthButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C32280627190FEB00D6277D /* Extensions.swift in Sources */,
+				7CCD00BA2719F14300859827 /* AuthButton.swift in Sources */,
 				7C3227D0271901E900D6277D /* ViewController.swift in Sources */,
 				7CCD00B82719CD7A00859827 /* CustomTextField.swift in Sources */,
 				7C322804271903A000D6277D /* LoginController.swift in Sources */,

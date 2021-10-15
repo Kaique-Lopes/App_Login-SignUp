@@ -21,15 +21,20 @@ class LoginController: UIViewController {
         return tf
     }()
     
-    private let buttonOk: UIButton = {
-     let bt = UIButton()
-        bt.backgroundColor = .green
-        return bt
+    private let loginButton: AuthButton = {
+        let button = AuthButton(type: .system)
+        button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+        return button
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
+    }
+    
+    @objc func handleLogin() {
+        print("DEBUG-- Handle")
     }
 
     func configureUI() {
@@ -50,7 +55,7 @@ class LoginController: UIViewController {
         iconImage.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 25)
         
         // MARK: - StackView with TextFields
-        let stack = UIStackView(arrangedSubviews: [emailTextField, passwordTextField])
+        let stack = UIStackView(arrangedSubviews: [emailTextField, passwordTextField, loginButton])
         stack.axis = .vertical
         stack.spacing = 20
         view.addSubview(stack)
